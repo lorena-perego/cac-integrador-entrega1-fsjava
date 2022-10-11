@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&display=swap" rel="stylesheet">
+    <title>Comprar tickets</title>
+    <link rel="shortcut icon" href="favicon.ico">
+<!--Estilos locales de la página-->
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Mukta Malar', sans-serif;
+            background: rgb(174, 174, 174);
+            width: 100%;
+        }
+
+        img{
+            width: 40%;
+            padding: 0;
+        }
+
+        h2{
+            font-size: 31px;
+            font-weight: bold;
+            color:  rgb(38, 50, 56);;
+        }
+
+        .botonRegresar{
+            border-radius: 3px;
+            background: rgb(38, 50, 56);
+            color: rgb(255, 199, 39);
+            font-size: 19.8px;
+            text-decoration: none;
+            padding:7px 30px 3px 30px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .error{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        @media screen and (max-width:500px){
+            
+            img{
+                width: 90%;
+            }
+
+            h2{
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .error{
+                height: 100vh;
+            }
+        }
+
+    </style>
+  
+        <div class="error">
+            <img src="../assets/imagenes/Oops! 404 Error.png" alt="Error 404 - Página no encontrada">
+            <h2>La página solicitada no se encuentra disponible</h2>
+            <a class="botonRegresar" href="../index.html">Regresar</a>
+        </div>
+      
+</body>
+</html>

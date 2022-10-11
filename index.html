@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&display=swap" rel="stylesheet">
+        <title>Conferencia Bs. As.</title>
+        <link rel="shortcut icon" href="favicon.ico">
+    <!--Estilos locales de la página-->
+        <link rel="stylesheet" href="./css/estilo.css">
+    </head>
+
+    <body>
+    <!--Encabezado de la página Conf Bs As--> 
+        <header class="encabezadoFlex">
+            <!-- Logo y título del encabezado-->
+                <div class="encabezadoLogo">
+                    <img class="logo_imagen" src="./assets/imagenes/codoacodo.png" alt="Logo de Codo a Codo" loading="lazy"> 
+                    <h3>Conf Bs As</h3>
+                </div>
+            <!-- Barra de navegación del encabezado-->
+                <nav class="navegador">
+                    <div class="enlaces">
+                        <a href="#" class="enlaceBlanco">La conferencia</a>
+                        <a href="#oradores" class="enlaceGris">Los oradores</a>
+                        <a href="#lugarFecha" class="enlaceGris">El lugar y la fecha</a>
+                        <a href="#formulario" class="enlaceGris">Conviértete en orador</a>
+                        <a href="./pages/comprar_tickets.html"class="enlaceVerde">Comprar tickets</a>
+                    </div>
+                </nav>
+        </header>
+    <!--Sección Principal de la página Conf Bs As-->
+        <main>
+            <section class="contenidoPrincipal" id="conferencia">
+                <div class="textoPrincipal">
+                    <h1>Conf Bs As</h1>
+                    <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                    <a class="botonQuiero" href="#formulario">Quiero ser orador</a>
+                    <a class="botonComprar" href="./pages/comprar_tickets.html">Comprar tickets</a>
+                </div>
+            </section>
+        </main>
+    <!--Sección Oradores dela página Conf Bs As-->
+        <section class="tarjetasOradores" id="oradores">
+            <h5>CONOCE A LOS</h5>
+            <h2>ORADORES</h2>
+            <div class="tarjetas_flex">
+            <!--Tarjeta Steve Jobs-->
+                <div class="tarjeta">
+                    <img class="tarjetaImagen" src="./assets/imagenes/steve.jpg" alt="Foto de Steve Jobs" loading="lazy" width="300">
+                    <div class="tarjetaSkills">
+                        <a class="javaS" href="#JavaS">JavaScript</a>
+                        <a class="react" href="#React">React</a>
+                        <h4>Steve Jobs</h4>
+                        <p class="tarjetaParrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro dicta impedit molestias aspernatur eos facilis repudiandae explicabo. Magni sunt dolorem vel repellendus molestias. Sequi amet laborum quaerat beatae animi sint?</p>
+                    </div>
+                </div>
+            <!--Tarjeta Bill Gates-->
+                <div class="tarjeta">
+                    <img class="tarjetaImagen" src="./assets/imagenes/bill.jpg" alt="Foto de Bill Gates" loading="lazy" width="300">
+                    <div class="tarjetaSkills">
+                        <a class="javaS" href="#JavaS">JavaScript</a>
+                        <a class="react" href="#React">React</a>
+                        <h4>Bill Gates</h4>
+                        <p class="tarjetaParrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro dicta impedit molestias aspernatur eos facilis repudiandae explicabo. Magni sunt dolorem vel repellendus molestias. Sequi amet laborum quaerat beatae animi sint?</p>
+                    </div>
+                </div>
+            <!--Tarjeta Ada Lovelace-->   
+                <div class="tarjeta">
+                    <img class="tarjetaImagen" src="./assets/imagenes/ada.jpeg" alt="Foto de Ada Lovelace" loading="lazy" width="300">
+                    <div class="tarjetaSkills">
+                        <a class="negocios" href="#Negocios">Negocios</a>
+                        <a class="startups" href="#Startups">Startups</a>
+                        <h4>Ada Lovelace</h4>
+                        <p class="tarjetaParrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro dicta impedit molestias aspernatur eos facilis repudiandae explicabo. Magni sunt dolorem vel repellendus molestias. Sequi amet laborum quaerat beatae animi sint?</p>
+                    </div>
+                </div>
+            </section>
+    <!--Sección lugar y fecha dela página Conf Bs As-->   
+        <section class="pantallaDividida" id="lugarFecha">
+            <div class="imagenIzquierda"></div>
+            <div class="contenidoDerecha">
+                <h2>Bs As - Octubre</h2>
+                <p>Buenos Aires es la gran capital cosmopolita de Argentina. Su centro es la plaza de Mayo, rodeada de imponentes edificios del siglo XIX, incluida la Casa Rosada, el icónico Palacio Presidencial que tiene varios balcones. Entre otras atracciones importantes, se incluyen el Teatro Colón, un lujoso teatro de ópera de 1908 con cerca de 2500 asientos, y el moderno Museo MALBA, que exhibe arte latinoamericano.</p>
+                <a class="botonContenidoDerecha" href="">Conocé más</a>
+            </div>
+        </section>
+    <!--Sección conviertete en orador dela página Conf Bs As-->
+        <section class="form" id=formulario>
+            <div class="titulosFormulario">
+                <h5>CONVIÉRTETE EN UN</h5>
+                <h2>ORADOR</h2>
+                <p class="textoFormuario">Anótate como un orador para dar una charla ignite. Cuéntanos de que quieres hablar!</p>
+            </div>
+            <form class="camposFormulario">
+                <div class="nombreApellido">
+                    <input class="inputNombre" type="text" placeholder="Nombre" required>
+                    <input class="inputApellido" type="text" placeholder="Apellido" required>
+                </div>
+                <div>
+                    <textarea class="inputComentario" name="" id="" cols="70" rows="4" >Sobre qué quieres hablar?</textarea>
+                </div>
+                <h6>Recuerda incluir un título para tu charla</h6>
+                <div class="botonEnviar">
+                    <input class="inputEnviar" type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    <!--Pie de página de la página Conf Bs As-->
+        <footer class="piePagina">
+            <div class="enlacesPiePagina">
+                <a class="enlace" href="">Preguntas frecuentes</a>
+                <a class="enlace" href="">Contáctanos</a>
+                <a class="enlace" href="">Prensa</a>
+                <a class="enlace" href="">Conferencias</a>
+                <a class="enlace" href="">Términos y condiciones</a>
+                <a class="enlace" href="">Privacidad</a>
+                <a class="enlace" href="">Estudiantes</a>
+            </div>
+        </footer>
+</body>
+</html>
